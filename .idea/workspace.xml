@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeb8c9da-166f-435e-b265-47536cceac5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/DjangoFarmers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FarmerDjango/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FarmerDjango/crops/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FarmerDjango/crops/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_model/02-05-2023_20-47-39_full_pipeline.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_model/02-05-2023_20-47-39_target_encoder.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_model/02-05-2023_20-47-39_xgb_clf.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build_push _to_docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build_push _to_docker.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
