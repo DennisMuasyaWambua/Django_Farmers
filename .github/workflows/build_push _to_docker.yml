@@ -22,11 +22,11 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: Build and push Docker Image
+    - name: Build and push Docker Image to DockerHub
       run: |
         docker build -t muasya1/crops_recommender_image .
         docker login -u  ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }} docker.io
-        docker push muasya1/crops_recommender_image
+        sudo docker push muasya1/crops_recommender_image
         
 
 #        use run| docker build -t `image_name` . docker login -u  'username' -p 'password' docker.io/ docker push `image_name`
