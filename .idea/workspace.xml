@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeb8c9da-166f-435e-b265-47536cceac5f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build_push _to_docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build_push _to_docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FarmerDjango/FarmerDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FarmerDjango/FarmerDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FarmerDjango/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/FarmerDjango/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +33,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  }
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+        <option value="bundled-python-sdk-ce3d9afa04ac-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.347" />
       </set>
     </attachedChunks>
   </component>
