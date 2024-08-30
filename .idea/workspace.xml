@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeb8c9da-166f-435e-b265-47536cceac5f" name="Changes" comment="" />
+    <list default="true" id="aeb8c9da-166f-435e-b265-47536cceac5f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build_push _to_docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build_push _to_docker.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
