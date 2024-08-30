@@ -24,7 +24,7 @@ jobs:
         pip install -r requirements.txt
     - name: Build and push Docker Image to DockerHub
       run: |
-        docker build -t muasya1/crops_recommender_model_image .
+        docker build -t muasya1/crop_ml_model .
         docker login -u  ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }} docker.io
         docker push muasya1/crops_recommender_model_image
         
