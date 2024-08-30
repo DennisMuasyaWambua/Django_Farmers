@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeb8c9da-166f-435e-b265-47536cceac5f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FarmerDjango/FarmerDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FarmerDjango/FarmerDjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FarmerDjango/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/FarmerDjango/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="aeb8c9da-166f-435e-b265-47536cceac5f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +37,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-ce3d9afa04ac-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.347" />
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
       </set>
     </attachedChunks>
   </component>

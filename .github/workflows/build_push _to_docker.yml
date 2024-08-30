@@ -26,7 +26,7 @@ jobs:
       run: |
         docker build -t muasya1/crop_ml_model .
         docker login -u  ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }} docker.io
-        docker push muasya1/crops_recommender_model_image
+        docker push muasya1/crop_ml_model
         
 
 #        use run| docker build -t `image_name` . docker login -u  'username' -p 'password' docker.io/ docker push `image_name`
