@@ -32,13 +32,13 @@ class SoilProfileView(APIView):
         # get temperature, humidity and rainfall data from weather api and ph from IOT device later on
         data = [[n, p, k, temperature, humidity, ph, rainfall]]
         df = pd.DataFrame(data, columns=['N', 'P', 'K', 'temperature', 'humidity', 'ph', 'rainfall'])
-        full_pipeline = joblib.load('../saved_model/02-05-2023_20-47-39_full_pipeline.pkl')
-        xgb_clf = joblib.load('../saved_model/02-05-2023_20-47-39_xgb_clf.pkl')
+        full_pipeline = joblib.load('saved_model/02-05-2023_20-47-39_full_pipeline.pkl')
+        xgb_clf = joblib.load('saved_model/02-05-2023_20-47-39_xgb_clf.pkl')
 
         prepared_data = full_pipeline.transform(df)
         prediction = xgb_clf.predict(prepared_data)
 
-        target_encoder = joblib.load('../saved_model/02-05-2023_20-47-39_target_encoder.pkl')
+        target_encoder = joblib.load('saved_model/02-05-2023_20-47-39_target_encoder.pkl')
 
         target_value = target_encoder.inverse_transform(prediction)
         profile = Soil(n=n, p=p, k=k, temperature=temperature, humidity=humidity, ph=ph, rainfall=rainfall)
