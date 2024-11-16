@@ -14,3 +14,4 @@ sqlparse
 threadpoolctl
 tzdata
 xgboost
+django-cors-headers
