@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'crops'
 ]
 
+CSRF_TRUSTED_ORIGINS = ["https://cropfrontend-production.up.railway.app/"]
+
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
